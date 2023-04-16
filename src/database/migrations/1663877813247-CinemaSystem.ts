@@ -372,9 +372,6 @@ export class CinemaSystem1663877813247 implements MigrationInterface {
         referencedTableName: 'seats'
       }),
     );
-
-    // throw new Error('TODO: implement migration in task 4');
   }
-
   public async down(queryRunner: QueryRunner): Promise<void> {}
 }
